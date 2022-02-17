@@ -35,6 +35,5 @@ fastqc head4millR2 -o Desktop/FASTQCout/
 ## To visualize, right-click on the html and 'view in browser' or ...
 firefox head4millR1_fastqc.html 
 ```
-Now you are done ! you can also check this tutorial for handling/interpreting FASTQC output:
-https://rtsf.natsci.msu.edu/genomics/tech-notes/fastqc-tutorial-and-faq/ 
+Now you are done ! you can also check this tutorial for handling/interpreting FASTQC output: [tutorial](https://rtsf.natsci.msu.edu/genomics/tech-notes/fastqc-tutorial-and-faq/) 
 ### END
