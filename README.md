@@ -20,7 +20,7 @@ and unzip folder:
 ```
 unzip fastqc_v0.11.9.zip
 ```
-The unzipped folder contains a script called fastqc that appears when you unzip. You need to first make it executable (see https://raw.githubusercontent.com/s-andrews/FastQC/master/INSTALL.txt)
+The unzipped folder contains a script called fastqc that appears when you unzip. You need to first make it executable (see [here](https://raw.githubusercontent.com/s-andrews/FastQC/master/INSTALL.txt)
 ```
 chmod 755 fastqc
 ## note: This way, you will ONLY be able to run fastqc inside the folder where it is installed.
