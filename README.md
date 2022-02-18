@@ -37,3 +37,30 @@ firefox head4millR1_fastqc.html
 ```
 Now you are done ! you can also check this tutorial for handling/interpreting FASTQC output: [tutorial](https://rtsf.natsci.msu.edu/genomics/tech-notes/fastqc-tutorial-and-faq/) 
 ### END
+Once the quality of reads has been checked, we can start working with STACKS
+## Install STACKS
+You can download a zipped folder with the programme from [here] (https://catchenlab.life.illinois.edu/stacks/) and unzip the folder like this :
+```
+tar xfvz stacks-2.xx.tar.gz 
+## Replace the xx with the specific version of STACKS you downloaded
+```
+Go inside the newly unzipped folder (ex. "stacks-2.60") and :
+```
+./configure 
+##
+this script is responsible for getting ready to build STACKS in your specific system. It ensures that all dependencies that you need for the rest of the build/install process are available.
+```
+Now build and finish installing STACKS software with these commands:
+```
+make
+make install (or sudo make install)
+##
+Find a simple explanation of what these commands do [here](https://thoughtbot.com/blog/the-magic-behind-configure-make-make-install).
+If you run into problems when installing, this note might help (insert the note of issues I found)
+```
+To check whether stacks was succesfully installed, you can type one of its commands using the 'help' flag. If help is displayed, you succeeded!
+```
+process_radtags -h 
+```
+## END OF INSTALLATION OF STACKS
+
