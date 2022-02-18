@@ -62,5 +62,5 @@ To check whether stacks was succesfully installed, you can type one of its comma
 ```
 process_radtags -h 
 ```
-## END OF INSTALLATION OF STACKS
+## END of installation.
 
