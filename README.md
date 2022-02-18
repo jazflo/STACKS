@@ -55,7 +55,7 @@ Now build and finish installing STACKS software with these commands:
 make
 make install (or sudo make install)
 ##
-Find a simple explanation of what these commands do [here](https://thoughtbot.com/blog/the-magic-behind-configure-make-make-install).
+Find a simple explanation of what these commands do here: https://thoughtbot.com/blog/the-magic-behind-configure-make-make-install
 If you run into problems when installing, this note might help (insert the note of issues I found)
 ```
 To check whether stacks was succesfully installed, you can type one of its commands using the 'help' flag. If help is displayed, you succeeded!
