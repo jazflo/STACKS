@@ -39,7 +39,7 @@ Now you are done ! you can also check this tutorial for handling/interpreting FA
 ### END
 Once the quality of reads has been checked, we can start working with STACKS
 ## Install STACKS
-You can download a zipped folder with the programme from [here] (https://catchenlab.life.illinois.edu/stacks/) and unzip the folder like this :
+You can download a zipped folder with the programme from [here](https://catchenlab.life.illinois.edu/stacks/) and unzip the folder like this :
 ```
 tar xfvz stacks-2.xx.tar.gz 
 ## Replace the xx with the specific version of STACKS you downloaded
