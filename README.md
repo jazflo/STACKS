@@ -67,7 +67,7 @@ process_radtags -h
 Given that data comes from Rapture protocol (citation), before running Stacks, we need to run a script to get the reads ready **** (insert here and try --bestrad command)
 
 ## Run the pipeline starting by demultiplexing the samples 
-### This means using the barcodes to separate the reads into the sample/Individual they originated from. The command we will use is [process_radtags](https://catchenlab.life.illinois.edu/stacks/comp/process_radtags.php) :
+This means using the barcodes to separate the reads into the sample/Individual they originated from. The command we will use is [process_radtags](https://catchenlab.life.illinois.edu/stacks/comp/process_radtags.php) :
 ```
 process_radtags -1 ./onemillreads/flipR1.fastq -2 ./onemillreads/flipR2.fastq -o  ./onemillreads/demultiplexed -b ./onemillreads/barcodes.txt -e sbfI -r -c -q
 ```
