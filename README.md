@@ -36,7 +36,7 @@ fastqc head4millR2 -o Desktop/FASTQCout/
 firefox head4millR1_fastqc.html 
 ```
 Now you are done ! you can also check this tutorial for handling/interpreting FASTQC output: [tutorial](https://rtsf.natsci.msu.edu/genomics/tech-notes/fastqc-tutorial-and-faq/) 
-### END
+
 Once the quality of reads has been checked, we can start working with STACKS
 ## Install STACKS
 You can download a zipped folder with the programme from [here](https://catchenlab.life.illinois.edu/stacks/) and unzip the folder like this :
@@ -64,3 +64,10 @@ process_radtags -h
 ```
 ## END of installation.
 
+Given that data comes from Rapture protocol (citation), before running Stacks, we need to run a script to get the reads ready **** (insert here and try --bestrad command)
+
+## Run the pipeline starting by demultiplexing the samples 
+### This means using the barcodes to separate the reads into the sample/Individual they originated from. The command we will use is [process_radtags](https://catchenlab.life.illinois.edu/stacks/comp/process_radtags.php) :
+```
+process_radtags -1 ./onemillreads/flipR1.fastq -2 ./onemillreads/flipR2.fastq -o  ./onemillreads/demultiplexed -b ./onemillreads/barcodes.txt -e sbfI -r -c -q
+```
