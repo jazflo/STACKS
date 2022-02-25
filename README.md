@@ -83,5 +83,5 @@ cstacks -P ~/Desktop/STACKS/onemillreads/ustacks.out/ -M  ~/Desktop/STACKS/onemi
 ##
 When you define the PATH to the population map file, you need to INCLUDE the name of the file in it. In this case, the file's name is "pops"
 ```
-## Match the individual samples against the catalog of putative loci
-**** instructions for sstacks plus issue ****
+## Match the samples in the population map against the newly created catalog
+In this step, ......
