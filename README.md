@@ -77,7 +77,7 @@ The command [ustacks](https://catchenlab.life.illinois.edu/stacks/comp/ustacks.p
 ustacks -f ./onemillreads/process_radtags.out/test_GTACGCAA.1.fq.gz  -o ./ustacks.out -i1 
 ```
 ## Build a 'catalog' of the loci present in the samples (i.e. the 'population')
-This is accomplished through the [cstacks](https://catchenlab.life.illinois.edu/stacks/comp/cstacks.php) command. In order to run in, you first need to make a [population map](https://catchenlab.life.illinois.edu/stacks/manual/#popmap) which is a file with sample IDs and the population they belong to. Once you have this, just follow this command:
+This is accomplished through the [cstacks](https://catchenlab.life.illinois.edu/stacks/comp/cstacks.php) command. In order to run it, you first need to make a [population map](https://catchenlab.life.illinois.edu/stacks/manual/#popmap) which is a file with sample IDs and the population they belong to. Once you have this, just follow this command:
 ```
 cstacks -P ~/Desktop/STACKS/onemillreads/ustacks.out/ -M  ~/Desktop/STACKS/onemillreads/popmap/pops -n 4 -p 4
 ##
