@@ -72,7 +72,7 @@ This means using the barcodes to separate the reads into the sample/Individual t
 process_radtags -1 ./onemillreads/flipR1.fastq -2 ./onemillreads/flipR2.fastq -o  ./onemillreads/demultiplexed -b ./onemillreads/barcodes.txt -e sbfI -r -c -q
 ```
 ## Start identifying putative loci using ustacks. 
-The command [ustacks](https://catchenlab.life.illinois.edu/stacks/comp/ustacks.phpwill) will take reads from individual samples and align them into matching stacks to ultimately discover putative loci. The command below will take the output of process_radtags (demultiplexed samples) and process just one sample at a time. In order to process multiple samples you can run loops as [here](https://catchenlab.life.illinois.edu/stacks/manual/#pipe) or use this script (run_ustacks.sh) :
+The command [ustacks](https://catchenlab.life.illinois.edu/stacks/comp/ustacks.phpwill) will take reads from individual samples and align them into matching stacks to ultimately discover putative loci. The command below will take the output of process_radtags (demultiplexed samples) and process just one sample at a time. In order to process multiple samples, you can run loops as [here](https://catchenlab.life.illinois.edu/stacks/manual/#pipe) or use this script (run_ustacks.sh) :
 ```
 ustacks -f ./onemillreads/process_radtags.out/test_GTACGCAA.1.fq.gz  -o ./ustacks.out -i1 
 ```
