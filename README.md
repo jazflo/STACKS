@@ -84,4 +84,11 @@ cstacks -P ~/Desktop/STACKS/onemillreads/ustacks.out/ -M  ~/Desktop/STACKS/onemi
 When you define the PATH to the population map file, you need to INCLUDE the name of the file in it. In this case, the file's name is "pops"
 ```
 ## Match the samples in the population map against the newly created catalog
-In this step, ......
+In this step all samples in the population would be matched against the catalog using sstacks
+```
+sstacks -P ~/Desktop/STACKS/onemillreads/ustacks.out/ -M ~/Desktop/STACKS/onemillreads/popmap/pops -p 4
+##
+-P = path to the directory containing Stacks files.
+-M = path to the population map file from which to take sample names
+*Remember to note whether the command requires a path to a DIRECTORY or to a FILE. In the latter case, you need to state the NAME of the file.
+```
