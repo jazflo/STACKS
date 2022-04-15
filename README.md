@@ -106,4 +106,4 @@ The following command will identify SNPs within the meta population for each loc
 ```
 gstacks -P ~/Desktop/STACKS/onemillreads/ustacks.out.2/ -M ~/Desktop/STACKS/onemillreads/popmap/pops2 -t4
 ```
-This will output two files: catalog.fa.gz (consensus sequence for each assembled locus) and catalog.calls (contains genotyping data). These will be used in the last part of the stacks pipeline. 
+This will output two files: catalog.fa.gz (consensus sequence for each assembled locus) and catalog.calls (contains genotyping data). These will be used in the last part of the pipeline. 
